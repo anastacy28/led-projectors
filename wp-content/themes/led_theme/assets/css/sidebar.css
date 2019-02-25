@@ -1,0 +1,169 @@
+.sidebar {
+  width: 50%;
+  padding-right: 20px; }
+  .sidebar .sidebar__list li a {
+    text-decoration: underline; }
+
+.monodionie {
+  position: relative;
+  display: block; }
+  .monodionie:hover .monodiodnie-hover {
+    display: block; }
+  .monodionie .monodiodnie-hover {
+    position: absolute;
+    display: none;
+    width: 320px;
+    height: auto;
+    top: -92px;
+    left: 105%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 1;
+    border: 2px solid purple;
+    border-radius: 20px;
+    padding: 10px; }
+    .monodionie .monodiodnie-hover .monodiodnie-hover__content {
+      background: #fff; }
+
+.mnogodiodnie-hover {
+  display: none; }
+
+.mnogodiodnie {
+  position: relative; }
+  .mnogodiodnie:hover .mnogodiodnie-hover {
+    display: block;
+    position: absolute;
+    width: 320px;
+    height: auto;
+    bottom: -100px;
+    left: 105%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    z-index: 1;
+    border: 2px solid purple;
+    border-radius: 20px; }
+    .mnogodiodnie:hover .mnogodiodnie-hover .mnogodiodnie-hover__content {
+      background: #fff; }
+
+.monodiodnie-hover__content-description {
+  padding: 10px;
+  text-align: center; }
+  .monodiodnie-hover__content-description :before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 50px solid #de1111;
+    border-bottom: 10px solid transparent;
+    top: 37%;
+    left: -10px;
+    z-index: 2; }
+
+.mnogodiodnie-hover__content-description {
+  padding: 10px;
+  text-align: center; }
+  .mnogodiodnie-hover__content-description :before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 50px solid #de1111;
+    border-bottom: 10px solid transparent;
+    top: 50%;
+    left: -10px;
+    z-index: 2; }
+
+.monodiodnie-hover__content,
+.mnogodiodnie-hover__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 20px; }
+
+.monodiodnie-hover__content-image,
+.mnogodiodnie-hover__content-image {
+  width: 50%;
+  margin: 0 auto; }
+  .monodiodnie-hover__content-image img,
+  .mnogodiodnie-hover__content-image img {
+    width: 100%; }
+
+.upper {
+  text-transform: uppercase; }
+
+@media screen and (max-width: 1030px) {
+  .sidebar {
+   width: 40%;
+   padding-right: 2px; }  }
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    width: 50%;
+    padding-right: 10px; }
+  .sidebar__list {
+    margin: 0 auto 10px; } }
+
+@media screen and (max-width: 750px) {
+  .monodionie .monodiodnie-hover {
+    width: 200px; }
+  .mnogodiodnie:hover .mnogodiodnie-hover {
+    width: 200px; } }
+
+@media screen and (max-width: 630px) {
+  .sidebar {
+    width: 52%; } }
+
+@media screen and (max-width: 530px) {
+  .sidebar {
+    width: 57%; }
+  .monodionie:hover .monodiodnie-hover {
+    top: -192px; }
+  .monodionie .monodiodnie-hover {
+    width: 160px; }
+  .mnogodiodnie:hover .mnogodiodnie-hover {
+    width: 160px; }
+  .monodiodnie-hover__content-description {
+    padding: 10px;
+    text-align: center; }
+    .monodiodnie-hover__content-description :before {
+      top: 86%;
+      left: -41px;
+      border-right: 50px solid #CCE; }
+  .mnogodiodnie-hover__content-description {
+    padding: 10px;
+    text-align: center; }
+    .mnogodiodnie-hover__content-description :before {
+      top: 52%;
+      left: -42px;
+      border-right: 50px solid #CCE; } }
+
+@media screen and (max-width: 440px) {
+  .monodionie:hover .monodiodnie-hover {
+    top: -192px;
+    left: 70%; }
+  .monodionie .monodiodnie-hover {
+    width: 150px; }
+  .mnogodiodnie:hover .mnogodiodnie-hover {
+    width: 150px;
+    left: 70%; }
+  .monodiodnie-hover__content-description {
+    padding: 10px;
+    text-align: center; }
+    .monodiodnie-hover__content-description :before {
+      top: 88%;
+      left: -31px; }
+  .mnogodiodnie-hover__content-description {
+    padding: 10px;
+    text-align: center; }
+    .mnogodiodnie-hover__content-description :before {
+      top: 52%;
+      left: -42px; } }
+
+@media screen and (max-width: 360px) {
+  .sidebar {
+    width: 60%; } }

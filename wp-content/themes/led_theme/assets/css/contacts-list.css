@@ -1,0 +1,12 @@
+  .contacts-list li {
+    margin-right: 10px;
+    color: #ed720b;
+    margin-bottom: 20px; }
+    .contacts-list li a {
+      color: #fff; }
+@media screen and (max-width: 576px) {
+  .contacts-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }

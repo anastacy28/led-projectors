@@ -1,0 +1,33 @@
+#myModal {
+  display: none;
+}
+.popup-callback {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999; }
+
+.form {
+  width: 400px;
+  height: 144px;
+  background: -webkit-linear-gradient(45deg, #b750b1, #fff, #b750b1);
+  background: -o-linear-gradient(45deg, #b750b1, #fff, #b750b1);
+  background: linear-gradient(45deg, #b750b1, #fff, #b750b1);
+  margin: 20% auto;
+  padding: 28px; }
+  .form-control {
+    margin-bottom: 8px; }
+
+.close-modal {
+  cursor: pointer;
+    float: right;
+    font-size: 36px;
+    line-height: 0px;
+    color: #D18;
+    font-weight: bold;
+   }
+ 

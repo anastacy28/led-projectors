@@ -1,0 +1,13 @@
+.section-orange {
+  background: #ed720b; }
+
+.timer-box {
+  width: 460px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px 0;
+  background: #ccc; }
+
+@media screen and (max-width: 760px) {
+  .timer-box {
+    width: 90%; } }
